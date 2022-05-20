@@ -58,10 +58,10 @@ const swiper = new Swiper('.main-carausel__swiper', {
 	slideToClickedSlide: false,
 
 	// Навигация по хешу
-	hashNavigation: {
-		// Отслеживать состояние
-		watchState: true,
-	},
+	// hashNavigation: {
+	// 	// Отслеживать состояние
+	// 	watchState: true,
+	// },
 
 	// Управление клавиатурой
 	keyboard: {
