@@ -1,0 +1,63 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+@import "var";
+@import "fonts";
+//@import "mixins";
+@import 'blocks/header';
+@import 'blocks/boxicons.min';
+@import 'blocks/swiper-bundle';
+@import 'blocks/main-carausel';
+
+
+:root {
+  --brand: #ff4d29;
+  --dark: #092032;
+  --body: #516171;
+  --border: rgba(0,0,0,0.08);
+  --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Barlow',sans-serif;
+  font-size: 16px;
+  line-height: 170%;
+  color: var(--body);
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  // max-width: 1440px;
+  // margin: 0 auto;
+}
+
+main {
+  flex: 1 1 100%;
+  position: relative;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,h7{
+font-weight: 700 !important;
+color: var(--dark);
+}
+
+.btn {
+  padding: 9px 24px;
+}
+.btn-brand {
+  color: var(--bs-white);
+  background-color: var(--brand);
+  &:hover {
+    background-color: darken(#ff4d29, 5%);
+  }
+}
+

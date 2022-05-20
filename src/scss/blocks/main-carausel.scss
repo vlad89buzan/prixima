@@ -1,0 +1,63 @@
+.main-carausel {
+  &__swiper {
+  }
+
+  &__slide1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(@img/bg_banner2.jpg) center/cover no-repeat;
+  }
+
+  &__slide2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(@img/bg_banner1.jpg) center/cover no-repeat;
+  }
+  .swiper-slide {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-button-prev1,
+  .swiper-button-next1 
+  
+   {
+       display: none;
+       @media (min-width:$bp600) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--bs-white);
+        background-color: #869791;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin: 5px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        transition: background 0.4s ease;
+        &:hover{
+            background-color: var(--brand);
+       }
+   
+    }
+  }
+  .swiper-button-next1{
+      right: 0;
+  }
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+
+.btn {
+}
+.btn-brand {
+}
+.btn-outline-light {
+}
+.swiper-pagination {
+}
