@@ -1,6 +1,7 @@
 .main-carausel {
-  &__swiper {
-  }
+  padding-top: 0;
+  padding-bottom: 0;
+ 
 
   &__slide1 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -48,16 +49,4 @@
       right: 0;
   }
 }
-.swiper {
-}
-.swiper-wrapper {
-}
 
-.btn {
-}
-.btn-brand {
-}
-.btn-outline-light {
-}
-.swiper-pagination {
-}

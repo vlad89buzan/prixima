@@ -4,61 +4,516 @@
 "title":"Главная"
 })
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50" >
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0">
 	<div class="wrapper">
 		@@include('html/header.html',{})
 		<main>
-<section class="main-carausel">
-	<!-- Slider main container -->
-<div class="swiper main-carausel__swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide main-carausel__slide1">
-		  <div class="container">
-			  <div class="row">
-				  <div class="col-12 text-center text-white">
-					<h6 class="text-uppercase text-white">design Driven for professional</h6>
-					<h1 class="text-uppercase text-white display-3 my-4">We craft digital <br> experiances</h1>
-					<a href="#" class="btn btn-brand">Get Started</a>
-					<a href="#" class="btn btn-outline-light ms-3">Our work</a>
-				  </div>
-			  </div>
-		  </div>
-		
-	  </div>
-      <div class="swiper-slide main-carausel__slide2">
-		<div class="container">
-			<div class="row">
-				<div class="col-11 offset-1 text-white">
-				  <h6 class="text-uppercase text-white">We craft digital experiances</h6>
-				  <h1 class="text-uppercase text-white display-3 display-sm-4 my-4">design Driven for<br>professional</h1>
-				  <a href="#" class="btn btn-brand">Get Started</a>
-				  <a href="#" class="btn btn-outline-light ms-3">Our work</a>
+			<section class="main-carausel">
+				<!-- Slider main container -->
+				<div class="swiper main-carausel__swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide main-carausel__slide1">
+							<div class="container">
+								<div class="row">
+									<div class="col-12 text-center text-white">
+										<h6 class="text-uppercase text-white">design Driven for professional</h6>
+										<h1 class="text-uppercase text-white display-3 my-4">We craft digital <br>
+											experiances</h1>
+										<a href="#" class="btn btn-brand">Get Started</a>
+										<a href="#" class="btn btn-outline-light ms-3">Our work</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="swiper-slide main-carausel__slide2">
+							<div class="container">
+								<div class="row">
+									<div class="col-11 offset-1 text-white">
+										<h6 class="text-uppercase text-white">We craft digital experiances</h6>
+										<h1 class="text-uppercase text-white display-3 display-sm-4 my-4">design Driven
+											for<br>professional</h1>
+										<a href="#" class="btn btn-brand">Get Started</a>
+										<a href="#" class="btn btn-outline-light ms-3">Our work</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
+
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev1">PREV</div>
+					<div class="swiper-button-next1">NEXT</div>
+
+
+				</div>
+			</section>
+			<section id="about">
+				<div class="container">
+					<div class="row align-items-center justify-content-center gap-5">
+						<div class="col-lg-5">
+							<div class="row">
+								<div class="col-12 about__info mb-4">
+									<img src="@img/icon4.png" alt="">
+									<div>
+										<h5>Digital Marketing</h5>
+										<p>It is a long established fact that a reader will be distracted by the
+											readable content of a page</p>
+									</div>
+								</div>
+								<div class="col-12 about__info mb-4">
+									<img src="@img/icon5.png" alt="">
+									<div>
+										<h5>E-mail Marketing</h5>
+										<p>It is a long established fact that a reader will be distracted by the
+											readable content of a page</p>
+									</div>
+								</div>
+								<div class="col-12 about__info">
+									<img src="@img/icon6.png" alt="">
+									<div>
+										<h5>Buisness Marketing</h5>
+										<p>It is a long established fact that a reader will be distracted by the
+											readable content of a page</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5">
+							<img class="img-fluid" src="@img/about.png" alt="about.png">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="milestone">
+				<div class="container">
+					<div class="row justify-content-center text-white text-center ">
+						<div class="col-lg-2 col-6">
+							<h5 class="display-4">90K+</h5>
+							<p>Happy Clients</p>
+						</div>
+						<div class="col-lg-2 col-6">
+							<h5 class="display-4">45M</h5>
+							<p>Lines of code</p>
+						</div>
+						<div class="col-lg-2 col-6">
+							<h5 class="display-4">190</h5>
+							<p>Total Downloads</p>
+						</div>
+						<div class="col-lg-2 col-6">
+							<h5 class="display-4">380K</h5>
+							<p>YouTube Subscribers</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="services">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-12">
+							<h6>OUR SERVICES</h6>
+							<h2 class="my-3">What We Do?</h2>
+							<p class="col-lg-6 mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random
+								text. It has roots in a piece of classical Latin literature from 45 BC, making it over
+								2000 years old</p>
+						</div>
+					</div>
+					<div class="row g-3">
+						<div class="col-lg-4 col-md-6">
+							<div class="services__element">
+								<img src="@img/icon1.png" alt="icon1.png">
+								<h5>Digital Marketing</h5>
+								<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+									piece of classical Latin literature from</p>
+							</div>
+
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="services__element">
+								<img src="@img/icon2.png" alt="icon1.png">
+								<h5>Logo Designing</h5>
+								<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+									piece of classical Latin literature from</p>
+							</div>
+
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="services__element">
+								<img src="@img/icon3.png" alt="icon1.png">
+								<h5>Buisness consulting</h5>
+								<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+									piece of classical Latin literature from</p>
+							</div>
+
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="services__element">
+								<img src="@img/icon4.png" alt="icon1.png">
+								<h5>Videography</h5>
+								<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+									piece of classical Latin literature from</p>
+							</div>
+
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="services__element">
+								<img src="@img/icon5.png" alt="icon1.png">
+								<h5>Brand Identity</h5>
+								<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+									piece of classical Latin literature from</p>
+							</div>
+
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="services__element">
+								<img src="@img/icon6.png" alt="icon1.png">
+								<h5>Ethical Hacking</h5>
+								<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+									piece of classical Latin literature from</p>
+							</div>
+
+						</div>
+
+
+					</div>
+				</div>
+			</section>
+			<section id="portfolio" class="bg-light">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-12">
+							<h6>WORK</h6>
+							<h2 class="my-3">Successful projects</h2>
+							<p class="col-lg-6 mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random
+								text. It has roots in a piece of classical Latin literature from 45 BC, making it over
+								2000 years old</p>
+						</div>
+					</div>
+
+
+
+				</div>
+				<!-- Slider main container -->
+				<div class="swiper portfolio__swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide portfolio__slide">
+							<img src="@img/project1.jpg" alt="project1.jpg">
+							<div class="overlay"></div>
+							<div class="portfolio__content">
+								<h2>Consulting Marketing</h2>
+								<a href="#">Website Design</a>
+							</div>
+						</div>
+						<div class="swiper-slide portfolio__slide">
+							<img src="@img/project2.jpg" alt="project2.jpg">
+							<div class="overlay"></div>
+							<div class="portfolio__content">
+								<h2>Consulting Marketing</h2>
+								<a href="#">Website Design</a>
+							</div>
+						</div>
+						<div class="swiper-slide portfolio__slide">
+							<img src="@img/project3.jpg" alt="project3.jpg">
+							<div class="overlay"></div>
+							<div class="portfolio__content">
+								<h2>Consulting Marketing</h2>
+								<a href="#">Website Design</a>
+							</div>
+						</div>
+						<div class="swiper-slide portfolio__slide">
+							<img src="@img/project4.jpg" alt="project4.jpg">
+							<div class="overlay"></div>
+							<div class="portfolio__content">
+								<h2>Consulting Marketing</h2>
+								<a href="#">Website Design</a>
+							</div>
+						</div>
+						<div class="swiper-slide portfolio__slide">
+							<img src="@img/project5.jpg" alt="project5.jpg">
+							<div class="overlay"></div>
+							<div class="portfolio__content">
+								<h2>Consulting Marketing</h2>
+								<a href="#">Website Design</a>
+							</div>
+						</div>
+
+					</div>
+					<!-- If we need pagination -->
+					<div class="portfolio__swiper-pagination"></div>
+
+					<!-- If we need navigation buttons -->
+					<div class="portfolio__swiper-button-prev"></div>
+					<div class="portfolio__swiper-button-next"></div>
+
+
+				</div>
+			</section>
+			<section id="team" class="team">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-12">
+							<h6>Team</h6>
+							<h2 class="my-3">Team Members</h2>
+							<p class="col-lg-6 mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random
+								text. It has roots in a piece of classical Latin literature from 45 BC, making it over
+								2000 years old</p>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col-lg-4 col-md-6">
+							<div class="team__item">
+								<div class="team__image mb-3">
+									<img src="@img/team_1.jpg" alt="team_1.jpg">
+									<div class="team__social-links">
+										<a href="#" class="team__social-link"><i class="bx bxl-facebook"></i></a>
+										<a href="#" class="team__social-link"><i class="bx bxl-twitter"></i></a>
+										<a href="#" class="team__social-link"><i class="bx bxl-instagram"></i></a>
+										<a href="#" class="team__social-link"><i class="bx bxl-pinterest"></i></a>
+									</div>
+									<div class="team__overlay"></div>
+								</div>
+
+								<h5>Marvin McKinney</h5>
+								<p>Marketing Coordinator</p>
+
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="team__item">
+								<div class="team__image mb-3">
+									<img src="@img/team_2.jpg" alt="team_1.jpg">
+									<div class="team__social-links">
+										<a href="#" class="team__social-link"><i class="bx bxl-facebook"></i></a>
+										<a href="#" class="team__social-link"><i class="bx bxl-twitter"></i></a>
+										<a href="#" class="team__social-link"><i class="bx bxl-instagram"></i></a>
+										<a href="#" class="team__social-link"><i class="bx bxl-pinterest"></i></a>
+									</div>
+									<div class="team__overlay"></div>
+								</div>
+
+								<h5>Kathryn Murphy</h5>
+								<p>Ethical Hacker</p>
+
+
+
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="team__item">
+								<div class="team__image mb-3">
+									<img src="@img/team_3.jpg" alt="team_1.jpg">
+									<div class="team__social-links">
+										<a href="#" class="team__social-link"><i class="bx bxl-facebook"></i></a>
+										<a href="#" class="team__social-link"><i class="bx bxl-twitter"></i></a>
+										<a href="#" class="team__social-link"><i class="bx bxl-instagram"></i></a>
+										<a href="#" class="team__social-link"><i class="bx bxl-pinterest"></i></a>
+									</div>
+									<div class="team__overlay"></div>
+								</div>
+
+								<h5>Darrell Steward</h5>
+								<p>Software Developer</p>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="reviews" class="reviews">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 mx-auto">
+							<!-- Slider main container -->
+							<div class="swiper reviews__swiper">
+								<!-- Additional required wrapper -->
+								<div class="swiper-wrapper">
+									<!-- Slides -->
+									<div class="swiper-slide reviews__slide">
+										<div class="reviews__img mx-auto mb-3">
+											<img src="@img/team_1.jpg" alt="team_1.jpg">
+										</div>
+										<h5 class="text-white">Marvin McKinney</h5>
+										<p class="reviews__subtitle">Marketing Coordinator</p>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim corrupti vel at
+											asperiores ad architecto minima! Animi praesentium dicta labore qui quisquam
+											maiores architecto sunt nihil reiciendis aut perferendis assumenda libero,
+											molestias sed repellendus. Eligendi praesentium sequi architecto porro
+											distinctio iure corrupti maiores voluptatem minima, eum aut nihil
+											exercitationem nam.</p>
+										<div class="reviews__stars">
+											<i class="bx bxs-star"></i>
+											<i class="bx bxs-star"></i>
+											<i class="bx bxs-star"></i>
+											<i class="bx bxs-star"></i>
+											<i class="bx bxs-star-half"></i>
+										</div>
+									</div>
+									<div class="swiper-slide reviews__slide">
+										<div class="reviews__img mx-auto mb-3">
+											<img src="@img/team_2.jpg" alt="team_1.jpg">
+										</div>
+										<h5 class="text-white">Kathryn Murphy</h5>
+										<p class="reviews__subtitle">Ethical Hacker</p>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim corrupti vel at
+											asperiores ad architecto minima! Animi praesentium dicta labore qui quisquam
+											maiores architecto sunt nihil reiciendis aut perferendis assumenda libero,
+											molestias sed repellendus. Eligendi praesentium sequi architecto porro
+											distinctio iure corrupti maiores voluptatem minima, eum aut nihil
+											exercitationem nam.</p>
+										<div class="reviews__stars">
+											<i class="bx bxs-star"></i>
+											<i class="bx bxs-star"></i>
+											<i class="bx bxs-star"></i>
+											<i class="bx bxs-star"></i>
+											<i class="bx bxs-star-half"></i>
+										</div>
+									</div>
+									<div class="swiper-slide reviews__slide">
+										<div class="reviews__img mx-auto mb-3">
+											<img src="@img/team_3.jpg" alt="team_1.jpg">
+										</div>
+										<h5 class="text-white">Darrell Steward</h5>
+										<p class="reviews__subtitle">Software Developer</p>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim corrupti vel at
+											asperiores ad architecto minima! Animi praesentium dicta labore qui quisquam
+											maiores architecto sunt nihil reiciendis aut perferendis assumenda libero,
+											molestias sed repellendus. Eligendi praesentium sequi architecto porro
+											distinctio iure corrupti maiores voluptatem minima, eum aut nihil
+											exercitationem nam.</p>
+										<div class="reviews__stars">
+											<i class="bx bxs-star"></i>
+											<i class="bx bxs-star"></i>
+											<i class="bx bxs-star"></i>
+											<i class="bx bxs-star"></i>
+											<i class="bx bxs-star-half"></i>
+										</div>
+									</div>
+
+								</div>
+								<!-- If we need pagination -->
+								<div class="reviews__swiper-pagination"></div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<section class="blog" id="blog">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-12">
+							<h6>Blog</h6>
+							<h2 class="my-3">Blog Posts</h2>
+							<p class="col-lg-6 mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random
+								text. It has roots in a piece of classical Latin literature from 45 BC, making it over
+								2000 years old</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-6">
+							<div class="blog__item">
+								<div class="blog__image">
+									<img src="@img/project1.jpg" alt="project1.jpg">
+									<a href="#" class="tag">Web Design</a>
+								</div>
+								<div class="blog__info ">
+									<p class="blog__data">01.12.2021</p>
+									<h5>Web Design trends in 2022</h5>
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+										in a piece of classical Latin literature from</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="blog__item">
+								<div class="blog__image">
+									<img src="@img/project2.jpg" alt="project1.jpg">
+									<a href="#" class="tag">Programming</a>
+								</div>
+								<div class="blog__info ">
+									<p class="blog__data">01.12.2021</p>
+									<h5>Web Design trends in 2022</h5>
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+										in a piece of classical Latin literature from</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="blog__item">
+								<div class="blog__image">
+									<img src="@img/project3.jpg" alt="project1.jpg">
+									<a href="#" class="tag">Marketing</a>
+								</div>
+								<div class="blog__info ">
+									<p class="blog__data">01.12.2021</p>
+									<h5>Web Design trends in 2022</h5>
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+										in a piece of classical Latin literature from</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl modal-dialog-centered">
+				<div class="modal-content">
+
+					<div class="modal-body p-0">
+						<div class="container-fluid">
+							<div class="row gy-3">
+								<div class="col-lg-4 bg-cover"
+									style="background-image: url(@img/c2.jpg);min-height: 300px;"></div>
+								<div class="col-lg-8">
+									<form action="" class="row p-lg-5 gy-3" >
+										<h1>Get in touch</h1>
+										<p>Fell free to contact us and we will get back to you as soon as possible</p>
+										<div class="col-lg-6">
+											<label for="userName" class="form-label">First Name
+												</label>
+											<input type="text" class="form-control" id="userName"
+												placeholder="Jon">
+										</div>
+										<div class="col-lg-6">
+											<label for="userLastName" class="form-label">Last Name
+												</label>
+											<input type="text" class="form-control" id="userLastName"
+												placeholder="Doe">
+										</div>
+										<div class="col-12">
+											<label for="exampleFormControlInput1" class="form-label">Email address</label>
+											<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Johndoe@example.com">
+										  </div>
+										  <div class="col-12">
+											<label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+											<textarea class="form-control" placeholder="This is looking great and nice." id="exampleFormControlTextarea1" rows="3"></textarea>
+										  </div>
+										  <div class="col-12">
+											<button type="submit" class="btn btn-brand">Send Message</button>
+										  </div>
+									</form>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
-	  </div>
-     
-     
-    </div>
-    
-  
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev1">PREV</div>
-    <div class="swiper-button-next1">NEXT</div>
-  
-   
-  </div>
-</section>
-<section id="about">
-	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque saepe nemo ipsum dolorum, adipisci distinctio voluptatum, quo pariatur ex molestias ipsa aperiam qui. Non similique ratione magni consectetur ipsam, alias architecto, possimus consequuntur quae earum amet! Recusandae veniam incidunt ipsam facilis porro quis minus, animi dolorum dolores aspernatur ipsum rem dolorem quia. Obcaecati temporibus neque voluptates commodi hic, beatae quisquam. Non cumque ipsam architecto blanditiis enim modi praesentium, est eius fugiat odit dolorem, consequuntur molestiae alias. Sit, incidunt neque vitae, reiciendis nostrum id aperiam asperiores odio placeat, quas cumque sequi veritatis maxime! Beatae eos quod voluptates architecto, excepturi officiis tempore odio aliquam, itaque voluptatibus cumque rerum ex, numquam ad hic praesentium laborum quo perspiciatis harum? Ratione nesciunt sint cupiditate quos, doloribus accusamus magnam delectus, ipsum animi at quas qui aperiam mollitia praesentium quae esse itaque expedita doloremque aliquam, enim modi sequi? Neque dignissimos assumenda dolorem consectetur, eos adipisci sit id placeat perspiciatis nihil molestiae optio officia nesciunt et dicta quae ipsam inventore tenetur eveniet laudantium necessitatibus? Perferendis saepe nam, obcaecati dolorem in molestias, a dolorum at vitae nihil et laborum aperiam alias praesentium libero sed facilis delectus molestiae quis nemo autem sint tenetur! Dolorum quidem nisi, nobis, natus velit distinctio nesciunt eius explicabo voluptates ea rem ducimus tempora et dicta. Sit nihil nulla reprehenderit suscipit autem tempore consectetur! Temporibus, et cumque! Deleniti laudantium magni animi esse quis illo quidem exercitationem mollitia repellat ea ipsa doloribus quos numquam officiis aut, corporis dolor rem culpa accusantium! Veritatis, obcaecati eos minus laboriosam, aliquam, cumque assumenda reiciendis necessitatibus adipisci voluptatum at minima harum. Dolorum quisquam at perspiciatis expedita adipisci odio eius, fugit nam cupiditate unde rem ducimus itaque, nostrum facere corporis nulla autem veritatis non iure sequi vel. Sed saepe, deleniti accusamus enim aperiam dolorum aliquam natus, consequuntur unde eum iure similique vel mollitia exercitationem sapiente repellendus perspiciatis pariatur repudiandae! Repellat culpa iusto aperiam odio facilis nobis voluptas nulla tempora aliquam, nam dolor quidem? Assumenda possimus sint impedit distinctio! Repellendus ratione itaque aliquid expedita sit atque corrupti, corporis voluptates adipisci tenetur modi, esse nam quia delectus nulla! Iste voluptatum tempora veritatis possimus quisquam culpa necessitatibus in fuga voluptatibus ipsum est minima dicta nemo dolorum soluta consequatur quae facilis, ut odio recusandae! Ea expedita nostrum obcaecati voluptas quidem voluptatum sed non incidunt quasi, laudantium quia fugit, et totam. Voluptatum reiciendis unde, fugiat quia voluptate accusantium numquam illo doloribus error dolorum minus, corrupti quam esse delectus repudiandae, perspiciatis officia suscipit tempora? Voluptate odit id exercitationem vero eveniet obcaecati voluptatibus at, excepturi labore. Aperiam suscipit inventore vero, similique dicta assumenda deleniti! Perferendis id ea repellat qui quam iure, sapiente illum neque iusto praesentium optio voluptas itaque officia! Vero pariatur molestiae autem dignissimos nisi recusandae cupiditate atque repellendus aperiam dolores fugit adipisci esse numquam aut doloribus ea, et cum illo ut mollitia natus similique est! Ipsum, atque quod officiis excepturi architecto dolore debitis non cum? Quidem harum quis distinctio ipsam ad nostrum repellendus, eum nulla? Voluptatibus nam quo cupiditate maiores aut, natus suscipit rerum enim dolor nesciunt similique doloremque, odio, dolores exercitationem eos ipsam ullam eum. Saepe quo rerum cum architecto ad. Repudiandae accusamus tenetur, optio tempore, iure, cumque quod molestias facere reprehenderit id nam fuga non officia omnis consectetur! Cum sunt qui veritatis consequatur ullam facilis est magni nam sed necessitatibus atque nobis earum quasi, dolorum laudantium neque dolores? Veritatis inventore sunt, rem commodi illum qui omnis eaque quisquam reprehenderit culpa. Ex soluta architecto, totam commodi eveniet ad debitis assumenda nam. Aliquid fuga fugiat possimus autem unde officiis sequi laborum nihil quos! Magnam deserunt eius dolorum! Sunt, soluta quos, quaerat at assumenda tempora dolorum eius recusandae qui obcaecati, facilis praesentium odit. Asperiores sunt voluptate quis. Rem nobis ea doloribus quam quo. In necessitatibus ullam ut asperiores quod explicabo officia cumque, magni tempore vero ea doloribus! Laudantium reiciendis sed voluptatem cumque eligendi exercitationem! Veritatis eos expedita ipsam! Unde doloribus perspiciatis soluta repellendus nemo deleniti, eum illum esse! Temporibus, consectetur quisquam ab voluptatum est unde qui nisi ratione autem reiciendis harum rem ipsam! Ab eaque vel veniam unde ipsa magnam error quo, consequuntur excepturi. Adipisci sunt aliquid earum autem enim reiciendis sequi voluptas voluptates quibusdam iure magnam officia obcaecati a recusandae aspernatur possimus temporibus ex hic ducimus voluptate, repellat odio! Explicabo libero dignissimos atque rem consequuntur odit cupiditate. Illum provident repellat molestias, hic, distinctio sit quia, quidem sequi quos consequuntur ea tempora repellendus sunt! Ad earum nulla pariatur iusto cumque suscipit recusandae mollitia laudantium modi similique sit nihil aliquid maiores minus quae molestiae esse doloribus doloremque, sapiente illo facilis voluptatem vitae. Consequatur, impedit at laborum porro ipsum maxime saepe quod harum ea eligendi facere autem veniam dolores dolorem assumenda eius culpa natus ab quia repellendus voluptas? Omnis, iusto architecto. Vero consequuntur numquam qui aperiam neque repellat. Expedita, sequi doloribus magnam dicta quae neque delectus eligendi quis inventore recusandae voluptatum quia fuga! Voluptas adipisci praesentium, tempora ex dolores nesciunt aliquam perspiciatis quia nulla consequuntur reprehenderit perferendis! Fugiat consequatur odio dolor aut facilis voluptas magni, vitae assumenda corporis at. Omnis earum qui beatae numquam! Debitis ab expedita quod perspiciatis vero. Molestiae, obcaecati porro non, aliquid eum magni commodi officiis dolores, possimus fuga voluptates. Quam eum, dolorem distinctio officiis aliquam, sapiente dolor quis blanditiis odio in aperiam, voluptates fugiat consectetur eaque. Blanditiis, repellat aliquid laboriosam obcaecati ab at molestiae eum nesciunt. Eaque et asperiores optio reprehenderit necessitatibus illum voluptatum reiciendis facilis perspiciatis natus fugit veritatis exercitationem earum, omnis ullam sapiente sed vitae incidunt eligendi delectus a fugiat nesciunt autem? Repudiandae, voluptatum? Reprehenderit ipsum necessitatibus at ut, odio blanditiis id rerum obcaecati eaque autem quibusdam ab, ducimus qui alias numquam eum velit explicabo cum ad nisi veniam, quis modi. Mollitia fugiat totam sed quisquam nobis quos, cum atque non eveniet neque nostrum? Cum excepturi suscipit rem sapiente corrupti, ad nam voluptatum quidem perferendis, odio nobis nisi? Mollitia consequuntur asperiores temporibus ea dolorum consectetur enim eveniet, repellat sunt illum magni dicta excepturi cupiditate iste odit provident dolores alias, quasi maxime incidunt cum quo soluta! Nam facilis non pariatur nesciunt magni architecto autem. Hic, perferendis!
-</section>
-<section id="services">
-	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque saepe nemo ipsum dolorum, adipisci distinctio voluptatum, quo pariatur ex molestias ipsa aperiam qui. Non similique ratione magni consectetur ipsam, alias architecto, possimus consequuntur quae earum amet! Recusandae veniam incidunt ipsam facilis porro quis minus, animi dolorum dolores aspernatur ipsum rem dolorem quia. Obcaecati temporibus neque voluptates commodi hic, beatae quisquam. Non cumque ipsam architecto blanditiis enim modi praesentium, est eius fugiat odit dolorem, consequuntur molestiae alias. Sit, incidunt neque vitae, reiciendis nostrum id aperiam asperiores odio placeat, quas cumque sequi veritatis maxime! Beatae eos quod voluptates architecto, excepturi officiis tempore odio aliquam, itaque voluptatibus cumque rerum ex, numquam ad hic praesentium laborum quo perspiciatis harum? Ratione nesciunt sint cupiditate quos, doloribus accusamus magnam delectus, ipsum animi at quas qui aperiam mollitia praesentium quae esse itaque expedita doloremque aliquam, enim modi sequi? Neque dignissimos assumenda dolorem consectetur, eos adipisci sit id placeat perspiciatis nihil molestiae optio officia nesciunt et dicta quae ipsam inventore tenetur eveniet laudantium necessitatibus? Perferendis saepe nam, obcaecati dolorem in molestias, a dolorum at vitae nihil et laborum aperiam alias praesentium libero sed facilis delectus molestiae quis nemo autem sint tenetur! Dolorum quidem nisi, nobis, natus velit distinctio nesciunt eius explicabo voluptates ea rem ducimus tempora et dicta. Sit nihil nulla reprehenderit suscipit autem tempore consectetur! Temporibus, et cumque! Deleniti laudantium magni animi esse quis illo quidem exercitationem mollitia repellat ea ipsa doloribus quos numquam officiis aut, corporis dolor rem culpa accusantium! Veritatis, obcaecati eos minus laboriosam, aliquam, cumque assumenda reiciendis necessitatibus adipisci voluptatum at minima harum. Dolorum quisquam at perspiciatis expedita adipisci odio eius, fugit nam cupiditate unde rem ducimus itaque, nostrum facere corporis nulla autem veritatis non iure sequi vel. Sed saepe, deleniti accusamus enim aperiam dolorum aliquam natus, consequuntur unde eum iure similique vel mollitia exercitationem sapiente repellendus perspiciatis pariatur repudiandae! Repellat culpa iusto aperiam odio facilis nobis voluptas nulla tempora aliquam, nam dolor quidem? Assumenda possimus sint impedit distinctio! Repellendus ratione itaque aliquid expedita sit atque corrupti, corporis voluptates adipisci tenetur modi, esse nam quia delectus nulla! Iste voluptatum tempora veritatis possimus quisquam culpa necessitatibus in fuga voluptatibus ipsum est minima dicta nemo dolorum soluta consequatur quae facilis, ut odio recusandae! Ea expedita nostrum obcaecati voluptas quidem voluptatum sed non incidunt quasi, laudantium quia fugit, et totam. Voluptatum reiciendis unde, fugiat quia voluptate accusantium numquam illo doloribus error dolorum minus, corrupti quam esse delectus repudiandae, perspiciatis officia suscipit tempora? Voluptate odit id exercitationem vero eveniet obcaecati voluptatibus at, excepturi labore. Aperiam suscipit inventore vero, similique dicta assumenda deleniti! Perferendis id ea repellat qui quam iure, sapiente illum neque iusto praesentium optio voluptas itaque officia! Vero pariatur molestiae autem dignissimos nisi recusandae cupiditate atque repellendus aperiam dolores fugit adipisci esse numquam aut doloribus ea, et cum illo ut mollitia natus similique est! Ipsum, atque quod officiis excepturi architecto dolore debitis non cum? Quidem harum quis distinctio ipsam ad nostrum repellendus, eum nulla? Voluptatibus nam quo cupiditate maiores aut, natus suscipit rerum enim dolor nesciunt similique doloremque, odio, dolores exercitationem eos ipsam ullam eum. Saepe quo rerum cum architecto ad. Repudiandae accusamus tenetur, optio tempore, iure, cumque quod molestias facere reprehenderit id nam fuga non officia omnis consectetur! Cum sunt qui veritatis consequatur ullam facilis est magni nam sed necessitatibus atque nobis earum quasi, dolorum laudantium neque dolores? Veritatis inventore sunt, rem commodi illum qui omnis eaque quisquam reprehenderit culpa. Ex soluta architecto, totam commodi eveniet ad debitis assumenda nam. Aliquid fuga fugiat possimus autem unde officiis sequi laborum nihil quos! Magnam deserunt eius dolorum! Sunt, soluta quos, quaerat at assumenda tempora dolorum eius recusandae qui obcaecati, facilis praesentium odit. Asperiores sunt voluptate quis. Rem nobis ea doloribus quam quo. In necessitatibus ullam ut asperiores quod explicabo officia cumque, magni tempore vero ea doloribus! Laudantium reiciendis sed voluptatem cumque eligendi exercitationem! Veritatis eos expedita ipsam! Unde doloribus perspiciatis soluta repellendus nemo deleniti, eum illum esse! Temporibus, consectetur quisquam ab voluptatum est unde qui nisi ratione autem reiciendis harum rem ipsam! Ab eaque vel veniam unde ipsa magnam error quo, consequuntur excepturi. Adipisci sunt aliquid earum autem enim reiciendis sequi voluptas voluptates quibusdam iure magnam officia obcaecati a recusandae aspernatur possimus temporibus ex hic ducimus voluptate, repellat odio! Explicabo libero dignissimos atque rem consequuntur odit cupiditate. Illum provident repellat molestias, hic, distinctio sit quia, quidem sequi quos consequuntur ea tempora repellendus sunt! Ad earum nulla pariatur iusto cumque suscipit recusandae mollitia laudantium modi similique sit nihil aliquid maiores minus quae molestiae esse doloribus doloremque, sapiente illo facilis voluptatem vitae. Consequatur, impedit at laborum porro ipsum maxime saepe quod harum ea eligendi facere autem veniam dolores dolorem assumenda eius culpa natus ab quia repellendus voluptas? Omnis, iusto architecto. Vero consequuntur numquam qui aperiam neque repellat. Expedita, sequi doloribus magnam dicta quae neque delectus eligendi quis inventore recusandae voluptatum quia fuga! Voluptas adipisci praesentium, tempora ex dolores nesciunt aliquam perspiciatis quia nulla consequuntur reprehenderit perferendis! Fugiat consequatur odio dolor aut facilis voluptas magni, vitae assumenda corporis at. Omnis earum qui beatae numquam! Debitis ab expedita quod perspiciatis vero. Molestiae, obcaecati porro non, aliquid eum magni commodi officiis dolores, possimus fuga voluptates. Quam eum, dolorem distinctio officiis aliquam, sapiente dolor quis blanditiis odio in aperiam, voluptates fugiat consectetur eaque. Blanditiis, repellat aliquid laboriosam obcaecati ab at molestiae eum nesciunt. Eaque et asperiores optio reprehenderit necessitatibus illum voluptatum reiciendis facilis perspiciatis natus fugit veritatis exercitationem earum, omnis ullam sapiente sed vitae incidunt eligendi delectus a fugiat nesciunt autem? Repudiandae, voluptatum? Reprehenderit ipsum necessitatibus at ut, odio blanditiis id rerum obcaecati eaque autem quibusdam ab, ducimus qui alias numquam eum velit explicabo cum ad nisi veniam, quis modi. Mollitia fugiat totam sed quisquam nobis quos, cum atque non eveniet neque nostrum? Cum excepturi suscipit rem sapiente corrupti, ad nam voluptatum quidem perferendis, odio nobis nisi? Mollitia consequuntur asperiores temporibus ea dolorum consectetur enim eveniet, repellat sunt illum magni dicta excepturi cupiditate iste odit provident dolores alias, quasi maxime incidunt cum quo soluta! Nam facilis non pariatur nesciunt magni architecto autem. Hic, perferendis!
-</section>
-
-		</main>
 		@@include('html/footer.html',{})
 	</div>
 	<script src="js/app.min.js"></script>
